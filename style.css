@@ -22,6 +22,16 @@ p {
     color: #535353;
 }
 
+hr {
+    border-color: #6b6b6b;
+}
+
+footer {
+    background: #6b6b6b;
+    padding: 20px;
+    height: 50px;
+}
+
 .meowl {
     width: 250px;
     height: auto;
