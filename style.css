@@ -47,18 +47,22 @@ footer {
 }
 
 .fatHorizontalRule {
-    border: 20px solid #e5e5e5;
+    height: 40px;
+    color: #e5e5e5;
+    background-color: #e5e5e5;
     position: absolute;
     top: 120px;
-    width: 100%;
+    width: 98.5%;
     z-index: -1;
 }
 
 .aBitSkinnierHorizontalRule {
-    border: 10px solid #6b6b6b;
+    height: 20px;
+    background-color: #6b6b6b;
+    border-color: #6b6b6b;
     position: absolute;
     top: 130px;
-    width: 100%;
+    width: 98.5%;
     z-index: -1;
 }
 
@@ -86,7 +90,7 @@ footer {
 }
 
 .meowlDrawingTutorial {
-    width: 250px;
+    width: 750px;
     height: auto;
     border-radius: 4px;
     display: block;
@@ -112,7 +116,7 @@ footer {
     border: 4px solid #e5e5e5; /* outline */
     border-radius: 3%;
     padding: 15px;
-    width: 500px;
+    width: 400px;
     height: auto;
     margin: 10px auto;      
     text-align: left;   
