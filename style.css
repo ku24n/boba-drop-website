@@ -3,6 +3,12 @@ h1 {
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    background: #eee;
+    padding: 20px;
+    border: 4px solid #e5e5e5;
+    border-radius: 3%;
 }
 
 h2 {
@@ -14,7 +20,7 @@ body {
     background: #fefefe;
     text-align: left;
     font-family: Arial;
-    display block;
+    display: block;
 }
 
 p {
@@ -23,13 +29,37 @@ p {
 }
 
 hr {
-    border-color: #6b6b6b;
+    border: 4px solid #e5e5e5;
+    
 }
 
 footer {
     background: #6b6b6b;
     padding: 20px;
     height: 50px;
+    color:#eee;
+}
+
+.footerText {
+    color: #eee;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.fatHorizontalRule {
+    border: 20px solid #e5e5e5;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    z-index: -1;
+}
+
+.aBitSkinnierHorizontalRule {
+    border: 10px solid #6b6b6b;
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    z-index: -1;
 }
 
 .meowl {
@@ -42,8 +72,9 @@ footer {
 }
 .meowlContainer {
     display: inline-block;
-    border: 4px solid #e5e5e5;
+    border: 10px solid #e5e5e5;
     border-radius: 3%;
+    background-color: #fff;
     padding: 4px;
     margin: 0 auto;
     width: auto;
